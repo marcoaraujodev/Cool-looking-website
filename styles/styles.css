@@ -180,15 +180,15 @@ padding: 10px;
 }
 
 #product-container {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    justify-items: center;
 }
 
 
 #itens {
-    display: grid;
+    margin-top: 10rem;
     padding: 10px;
-    margin-left: 45rem;
 }
 
 #itens p {
