@@ -68,6 +68,11 @@ padding: 10px;
 .navbar-itens a {
     text-decoration: none;
     color: #eee;
+    transition: all 1s;
+}
+
+.navbar-itens a:hover {
+color: rgb(0, 183, 255);
 }
 
 /* Product Showcase */
