@@ -40,7 +40,14 @@ body {
     background: #111;
     color: #eee;
     height: 70px;
+
 }
+
+@media (max-width: 767px) {
+    #navbar {
+      width: 90%; /* Exemplo de largura para smartphones em modo retrato */
+    }
+  }
 
 #navbar-container {
     width: 80%;
@@ -50,9 +57,21 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 767px) {
+    #navbar-container {
+      width: 75%; /* Exemplo de largura para smartphones em modo retrato */
+    }
+  }
 
 .Bank {
     font-size: 2rem;
+}
+
+@media (max-width: 767px){
+
+    .Bank {
+        font-size: 14px;
+    }
 }
 
 .navbar-itens {
@@ -73,6 +92,14 @@ padding: 10px;
 
 .navbar-itens a:hover {
 color: rgb(0, 183, 255);
+}
+
+@media (max-width: 767px){
+    .navbar-itens {
+        font-size: 13px;
+        width: 70%;
+        padding-left: 15px;
+    }
 }
 
 /* Product Showcase */
