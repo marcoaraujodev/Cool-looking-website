@@ -267,3 +267,13 @@ color: rgb(0, 183, 255);
  footer p a:hover {
     text-decoration: underline;
  }
+
+ @media (max-width: 1280px) {
+
+    .eth {
+        width: 10rem;
+        height: 10rem;
+        padding: 10px;
+    }
+    
+ }
