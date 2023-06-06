@@ -46,6 +46,7 @@ body {
 @media (max-width: 767px) {
     #navbar {
       width: 90%; /* Exemplo de largura para smartphones em modo retrato */
+      height: 60px;
     }
   }
 
@@ -119,6 +120,15 @@ color: rgb(0, 183, 255);
     background-blend-mode: color ;
 }
 
+    @media (max-width: 767px){
+        #showcase{
+            width: 90% !important;
+            font-size: 1px !important;
+            
+
+        }
+    }
+
 @keyframes ShowcaseBackground {
     0%{
         background-position: 0% 50%;
@@ -140,13 +150,20 @@ color: rgb(0, 183, 255);
     font-size: 2.5rem;
 }
 
-#showcanse-container p {
+#showcase-container p {
     font-size: 1.2rem;
     padding-bottom: 10px 0px;
 }
 
 #showcase a {
     margin-top: 20px;
+}
+
+@media (max-width: 767px){
+    #showcase-container {
+        width: 900%;
+        font-size: 1px;
+    }
 }
 
 /* Clients */
@@ -170,6 +187,12 @@ color: rgb(0, 183, 255);
     width: 22rem;
     height: 22rem;
     padding: 20px;
+}
+@media (max-width: 767px){
+    .eth {
+        width: 80px;
+        height: 100px;
+    }
 }
 
 /* About */
